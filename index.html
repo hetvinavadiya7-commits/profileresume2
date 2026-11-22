@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alex Morgan is a product-minded software engineer building thoughtful, accessible web experiences."
+    />
+    <meta name="theme-color" content="#f5f8ff" />
+    <title>Alex Morgan — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Alex Morgan, home">
+        <span class="brand-mark">A</span>
+        <span>alex<span class="brand-dot">.</span></span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="navigation" id="primary-navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="button button-small download-button" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3v12m0 0 4-4m-4 4-4-4M5 17v3h14v-3" />
+          </svg>
+          Download resume
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</span>
+          <h1 id="hero-title">Hi, I’m Alex.<br />I build things for <span>the web.</span></h1>
+          <p class="hero-description">
+            A software engineer who loves turning complex problems into simple, thoughtful
+            digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">
+              Let’s talk
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
+            </a>
+            <a class="text-link" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-socials" aria-label="Social profiles">
+            <a href="https://github.com/alexmorgan" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.5 1.2 14 3a13.2 13.2 0 0 0-7 0C3.5 1.2 2.3 1.5 2.3 1.5a4.8 4.8 0 0 0-.1 3.6A5.2 5.2 0 0 0 .8 8.7c0 5.2 3.1 6.4 6.1 6.7A3.4 3.4 0 0 0 6 18.1V22" />
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/alexmorgan-dev" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img
+              class="portrait"
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+              alt="Portrait of Alex Morgan"
+            />
+            <div class="portrait-caption">
+              <span class="caption-icon" aria-hidden="true">✳</span>
+              <span><strong>Alex Morgan</strong><small>Software Engineer</small></span>
+            </div>
+          </div>
+          <div class="floating-note note-top"><span>✦</span> Curiosity, always.</div>
+          <div class="floating-note note-bottom"><span class="note-emoji">☕</span> Fueled by good coffee</div>
+          <span class="visual-orbit orbit-one" aria-hidden="true"></span>
+          <span class="visual-orbit orbit-two" aria-hidden="true"></span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about section-wrap section-pad" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <span class="eyebrow">A LITTLE ABOUT ME</span>
+          <h2 id="about-title">Good work starts with <span>good questions.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              I’m a software engineer with <strong>5+ years of experience</strong> creating
+              fast, accessible, and human-centered products. I enjoy working across the stack,
+              from shaping an early idea to polishing the details people notice.
+            </p>
+            <p>
+              I believe the best software comes from curious teams, clear communication, and
+              a willingness to keep learning. When I’m away from my desk, you’ll find me out
+              on a trail, hunting down a new coffee shop, or sketching out my next side project.
+            </p>
+            <div class="quick-facts">
+              <div><span class="fact-number">05<span>+</span></span><span>Years building</span></div>
+              <div><span class="fact-number">18</span><span>Projects shipped</span></div>
+              <div><span class="fact-number">12</span><span>Cups of coffee / week</span></div>
+            </div>
+          </div>
+          <aside class="education-card reveal" aria-labelledby="education-title">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="m2 10 10-5 10 5-10 5-10-5Zm4 2v5c3.5 3 8.5 3 12 0v-5m4-2v6" /></svg>
+            </div>
+            <span class="eyebrow">THE FOUNDATION</span>
+            <h3 id="education-title">Education</h3>
+            <div class="education-item">
+              <span class="education-year">2015 — 2019</span>
+              <h4>B.S. Computer Science</h4>
+              <p>University of Washington</p>
+              <span class="education-detail">Magna Cum Laude · GPA 3.8</span>
+            </div>
+            <div class="education-item">
+              <span class="education-year">2021</span>
+              <h4>Web Accessibility</h4>
+              <p>W3C · Professional Certificate</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="skills section-pad" aria-labelledby="skills-title">
+        <div class="section-wrap">
+          <div class="section-heading centered reveal">
+            <span class="eyebrow">MY TOOLKIT</span>
+            <h2 id="skills-title">Tools I use to make <span>ideas real.</span></h2>
+            <p>A versatile toolkit, chosen for the problem — not the trend.</p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <span class="skill-icon icon-blue">⌘</span>
+              <h3>Frontend</h3>
+              <p>React · TypeScript · Next.js · HTML &amp; CSS</p>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-icon icon-violet">⌁</span>
+              <h3>Backend</h3>
+              <p>Node.js · Python · PostgreSQL · REST APIs</p>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-icon icon-cyan">◈</span>
+              <h3>Design &amp; UX</h3>
+              <p>Figma · Accessibility · Design systems · Prototyping</p>
+            </article>
+            <article class="skill-card reveal">
+              <span class="skill-icon icon-orange">↗</span>
+              <h3>Tools &amp; teamwork</h3>
+              <p>Git · AWS · Docker · Agile · Clear communication</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-wrap section-pad" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading reveal">
+          <span class="eyebrow">WHERE I’VE BEEN</span>
+          <h2 id="experience-title">Experience that <span>moves things forward.</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-date">2022 — PRESENT <span class="current-label">CURRENT</span></div>
+            <div class="timeline-content">
+              <div class="job-heading"><div><h3>Senior Software Engineer</h3><p class="company">Northstar Digital <span>·</span> Seattle, WA</p></div><span class="job-type">Full-time</span></div>
+              <p>Leading frontend development for a SaaS platform used by 40,000+ small businesses.</p>
+              <ul>
+                <li>Built a reusable component library that cut feature delivery time by 35%.</li>
+                <li>Improved Core Web Vitals, reducing page load time by 42% across key flows.</li>
+                <li>Partnered with design and product to ship 12 customer-requested features.</li>
+              </ul>
+              <div class="tag-list"><span>React</span><span>TypeScript</span><span>GraphQL</span><span>AWS</span></div>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-date">2019 — 2022</div>
+            <div class="timeline-content">
+              <div class="job-heading"><div><h3>Software Engineer</h3><p class="company">Brightside Labs <span>·</span> Portland, OR</p></div><span class="job-type">Full-time</span></div>
+              <p>Helped a close-knit product team bring a growing suite of customer tools to life.</p>
+              <ul>
+                <li>Delivered end-to-end features across React, Node.js, and PostgreSQL.</li>
+                <li>Introduced automated accessibility checks into the team’s CI workflow.</li>
+                <li>Mentored two junior engineers and helped improve onboarding documentation.</li>
+              </ul>
+              <div class="tag-list"><span>JavaScript</span><span>Node.js</span><span>PostgreSQL</span><span>Jest</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section-pad" id="projects" aria-labelledby="projects-title">
+        <div class="section-wrap">
+          <div class="section-heading reveal">
+            <span class="eyebrow">A FEW FAVORITES</span>
+            <h2 id="projects-title">Things I’ve made <span>with care.</span></h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card project-featured reveal">
+              <div class="project-art art-dashboard" aria-hidden="true">
+                <div class="dashboard-window">
+                  <div class="window-top"><span></span><span></span><span></span><i></i></div>
+                  <div class="dashboard-body"><div class="dashboard-sidebar"></div><div class="dashboard-content"><div class="dashboard-title"></div><div class="dashboard-metrics"><span></span><span></span><span></span></div><div class="dashboard-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta"><span>01 / FEATURED</span><a href="https://github.com/alexmorgan/fintrack" target="_blank" rel="noreferrer" aria-label="View Fintrack on GitHub">↗</a></div>
+                <h3>Fintrack</h3>
+                <p>A friendly, no-fuss personal finance dashboard that makes budgeting feel a little less like work.</p>
+                <div class="tag-list"><span>Next.js</span><span>TypeScript</span><span>Chart.js</span></div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-art art-notes" aria-hidden="true">
+                <div class="note-stack"><div class="note-sheet"><span>MONDAY, MAY 12</span><strong>Small steps,<br />big things.</strong><i>One thought at a time.</i><b>✳</b></div></div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta"><span>02 / OPEN SOURCE</span><a href="https://github.com/alexmorgan/quiet-notes" target="_blank" rel="noreferrer" aria-label="View Quiet Notes on GitHub">↗</a></div>
+                <h3>Quiet Notes</h3>
+                <p>A calming, keyboard-first note-taking app for getting thoughts out of your head.</p>
+                <div class="tag-list"><span>React</span><span>IndexedDB</span><span>CSS</span></div>
+              </div>
+            </article>
+          </div>
+          <a class="all-projects-link" href="https://github.com/alexmorgan" target="_blank" rel="noreferrer">More projects on GitHub <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="contact section-wrap section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card reveal">
+          <div class="contact-copy">
+            <span class="eyebrow">HAVE A GOOD ONE IN MIND?</span>
+            <h2 id="contact-title">Let’s make something <span>meaningful.</span></h2>
+            <p>Have a project, an opportunity, or just want to say hello? My inbox is always open.</p>
+            <a class="button button-light" href="mailto:alex.morgan@example.com">
+              Say hello
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg>
+            </a>
+          </div>
+          <div class="contact-details">
+            <a href="mailto:alex.morgan@example.com"><span class="contact-icon" aria-hidden="true">✉</span><span><small>EMAIL ME</small>alex.morgan@example.com</span></a>
+            <a href="tel:+12065550142"><span class="contact-icon" aria-hidden="true">⌕</span><span><small>GIVE ME A CALL</small>+1 (206) 555-0142</span></a>
+            <div><span class="contact-icon" aria-hidden="true">⌖</span><span><small>BASED IN</small>Seattle, Washington</span></div>
+            <div class="contact-socials">
+              <a href="https://github.com/alexmorgan" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              <a href="https://www.linkedin.com/in/alexmorgan-dev" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <span class="contact-decoration" aria-hidden="true">✳</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="brand" href="#home"><span class="brand-mark">A</span><span>alex<span class="brand-dot">.</span></span></a>
+      <p>Designed &amp; built with care by Alex Morgan</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+      <span class="copyright">© <span id="current-year"></span></span>
+    </footer>
+    <div class="sr-only" id="download-status" aria-live="polite"></div>
+  </body>
+</html>
